@@ -77,8 +77,8 @@ build code: C_EXECUTABLE_LINKER__code_Debug CMakeFiles/code.dir/main.c.o
 
 build cmake_object_order_depends_target_1week01: phony || CMakeFiles/1week01.dir
 
-build CMakeFiles/1week01.dir/1w01.c.o: C_COMPILER__1week01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1w01.c || cmake_object_order_depends_target_1week01
-  DEP_FILE = CMakeFiles/1week01.dir/1w01.c.o.d
+build CMakeFiles/1week01.dir/01w02-01.c.o: C_COMPILER__1week01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/01w02-01.c || cmake_object_order_depends_target_1week01
+  DEP_FILE = CMakeFiles/1week01.dir/01w02-01.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/1week01.dir
   OBJECT_FILE_DIR = CMakeFiles/1week01.dir
@@ -91,7 +91,7 @@ build CMakeFiles/1week01.dir/1w01.c.o: C_COMPILER__1week01_Debug /Users/gimdong-
 #############################################
 # Link the executable 1week01
 
-build 1week01: C_EXECUTABLE_LINKER__1week01_Debug CMakeFiles/1week01.dir/1w01.c.o
+build 1week01: C_EXECUTABLE_LINKER__1week01_Debug CMakeFiles/1week01.dir/01w02-01.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1week01.dir
   POST_BUILD = :
@@ -108,8 +108,8 @@ build 1week01: C_EXECUTABLE_LINKER__1week01_Debug CMakeFiles/1week01.dir/1w01.c.
 
 build cmake_object_order_depends_target_1week02: phony || CMakeFiles/1week02.dir
 
-build CMakeFiles/1week02.dir/1w02.c.o: C_COMPILER__1week02_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1w02.c || cmake_object_order_depends_target_1week02
-  DEP_FILE = CMakeFiles/1week02.dir/1w02.c.o.d
+build CMakeFiles/1week02.dir/01w02-02.c.o: C_COMPILER__1week02_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/01w02-02.c || cmake_object_order_depends_target_1week02
+  DEP_FILE = CMakeFiles/1week02.dir/01w02-02.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/1week02.dir
   OBJECT_FILE_DIR = CMakeFiles/1week02.dir
@@ -122,7 +122,7 @@ build CMakeFiles/1week02.dir/1w02.c.o: C_COMPILER__1week02_Debug /Users/gimdong-
 #############################################
 # Link the executable 1week02
 
-build 1week02: C_EXECUTABLE_LINKER__1week02_Debug CMakeFiles/1week02.dir/1w02.c.o
+build 1week02: C_EXECUTABLE_LINKER__1week02_Debug CMakeFiles/1week02.dir/01w02-02.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1week02.dir
   POST_BUILD = :
@@ -139,8 +139,8 @@ build 1week02: C_EXECUTABLE_LINKER__1week02_Debug CMakeFiles/1week02.dir/1w02.c.
 
 build cmake_object_order_depends_target_1week_hw_01: phony || CMakeFiles/1week_hw_01.dir
 
-build CMakeFiles/1week_hw_01.dir/1w03.c.o: C_COMPILER__1week_hw_01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1w03.c || cmake_object_order_depends_target_1week_hw_01
-  DEP_FILE = CMakeFiles/1week_hw_01.dir/1w03.c.o.d
+build CMakeFiles/1week_hw_01.dir/hw0.c.o: C_COMPILER__1week_hw_01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/hw0.c || cmake_object_order_depends_target_1week_hw_01
+  DEP_FILE = CMakeFiles/1week_hw_01.dir/hw0.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/1week_hw_01.dir
   OBJECT_FILE_DIR = CMakeFiles/1week_hw_01.dir
@@ -153,7 +153,7 @@ build CMakeFiles/1week_hw_01.dir/1w03.c.o: C_COMPILER__1week_hw_01_Debug /Users/
 #############################################
 # Link the executable 1week_hw_01
 
-build 1week_hw_01: C_EXECUTABLE_LINKER__1week_hw_01_Debug CMakeFiles/1week_hw_01.dir/1w03.c.o
+build 1week_hw_01: C_EXECUTABLE_LINKER__1week_hw_01_Debug CMakeFiles/1week_hw_01.dir/hw0.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1week_hw_01.dir
   POST_BUILD = :
@@ -170,8 +170,8 @@ build 1week_hw_01: C_EXECUTABLE_LINKER__1week_hw_01_Debug CMakeFiles/1week_hw_01
 
 build cmake_object_order_depends_target_2w3-3: phony || CMakeFiles/2w3-3.dir
 
-build CMakeFiles/2w3-3.dir/2w3-3.c.o: C_COMPILER__2w3-3_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w3-3.c || cmake_object_order_depends_target_2w3-3
-  DEP_FILE = CMakeFiles/2w3-3.dir/2w3-3.c.o.d
+build CMakeFiles/2w3-3.dir/02w03-03.c.o: C_COMPILER__2w3-3_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/02w03-03.c || cmake_object_order_depends_target_2w3-3
+  DEP_FILE = CMakeFiles/2w3-3.dir/02w03-03.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/2w3-3.dir
   OBJECT_FILE_DIR = CMakeFiles/2w3-3.dir
@@ -184,7 +184,7 @@ build CMakeFiles/2w3-3.dir/2w3-3.c.o: C_COMPILER__2w3-3_Debug /Users/gimdong-yun
 #############################################
 # Link the executable 2w3-3
 
-build 2w3-3: C_EXECUTABLE_LINKER__2w3-3_Debug CMakeFiles/2w3-3.dir/2w3-3.c.o
+build 2w3-3: C_EXECUTABLE_LINKER__2w3-3_Debug CMakeFiles/2w3-3.dir/02w03-03.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/2w3-3.dir
   POST_BUILD = :
@@ -201,8 +201,8 @@ build 2w3-3: C_EXECUTABLE_LINKER__2w3-3_Debug CMakeFiles/2w3-3.dir/2w3-3.c.o
 
 build cmake_object_order_depends_target_2w3-4: phony || CMakeFiles/2w3-4.dir
 
-build CMakeFiles/2w3-4.dir/2w3-4.c.o: C_COMPILER__2w3-4_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w3-4.c || cmake_object_order_depends_target_2w3-4
-  DEP_FILE = CMakeFiles/2w3-4.dir/2w3-4.c.o.d
+build CMakeFiles/2w3-4.dir/02w03-04.c.o: C_COMPILER__2w3-4_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/02w03-04.c || cmake_object_order_depends_target_2w3-4
+  DEP_FILE = CMakeFiles/2w3-4.dir/02w03-04.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/2w3-4.dir
   OBJECT_FILE_DIR = CMakeFiles/2w3-4.dir
@@ -215,7 +215,7 @@ build CMakeFiles/2w3-4.dir/2w3-4.c.o: C_COMPILER__2w3-4_Debug /Users/gimdong-yun
 #############################################
 # Link the executable 2w3-4
 
-build 2w3-4: C_EXECUTABLE_LINKER__2w3-4_Debug CMakeFiles/2w3-4.dir/2w3-4.c.o
+build 2w3-4: C_EXECUTABLE_LINKER__2w3-4_Debug CMakeFiles/2w3-4.dir/02w03-04.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/2w3-4.dir
   POST_BUILD = :
@@ -232,8 +232,8 @@ build 2w3-4: C_EXECUTABLE_LINKER__2w3-4_Debug CMakeFiles/2w3-4.dir/2w3-4.c.o
 
 build cmake_object_order_depends_target_2w3-5: phony || CMakeFiles/2w3-5.dir
 
-build CMakeFiles/2w3-5.dir/2w3-5.c.o: C_COMPILER__2w3-5_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w3-5.c || cmake_object_order_depends_target_2w3-5
-  DEP_FILE = CMakeFiles/2w3-5.dir/2w3-5.c.o.d
+build CMakeFiles/2w3-5.dir/02w03-05.c.o: C_COMPILER__2w3-5_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/02w03-05.c || cmake_object_order_depends_target_2w3-5
+  DEP_FILE = CMakeFiles/2w3-5.dir/02w03-05.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/2w3-5.dir
   OBJECT_FILE_DIR = CMakeFiles/2w3-5.dir
@@ -246,7 +246,7 @@ build CMakeFiles/2w3-5.dir/2w3-5.c.o: C_COMPILER__2w3-5_Debug /Users/gimdong-yun
 #############################################
 # Link the executable 2w3-5
 
-build 2w3-5: C_EXECUTABLE_LINKER__2w3-5_Debug CMakeFiles/2w3-5.dir/2w3-5.c.o
+build 2w3-5: C_EXECUTABLE_LINKER__2w3-5_Debug CMakeFiles/2w3-5.dir/02w03-05.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/2w3-5.dir
   POST_BUILD = :
@@ -263,8 +263,8 @@ build 2w3-5: C_EXECUTABLE_LINKER__2w3-5_Debug CMakeFiles/2w3-5.dir/2w3-5.c.o
 
 build cmake_object_order_depends_target_2w4-1: phony || CMakeFiles/2w4-1.dir
 
-build CMakeFiles/2w4-1.dir/2w4-1.c.o: C_COMPILER__2w4-1_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w4-1.c || cmake_object_order_depends_target_2w4-1
-  DEP_FILE = CMakeFiles/2w4-1.dir/2w4-1.c.o.d
+build CMakeFiles/2w4-1.dir/02w04-01.c.o: C_COMPILER__2w4-1_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/02w04-01.c || cmake_object_order_depends_target_2w4-1
+  DEP_FILE = CMakeFiles/2w4-1.dir/02w04-01.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/2w4-1.dir
   OBJECT_FILE_DIR = CMakeFiles/2w4-1.dir
@@ -277,7 +277,7 @@ build CMakeFiles/2w4-1.dir/2w4-1.c.o: C_COMPILER__2w4-1_Debug /Users/gimdong-yun
 #############################################
 # Link the executable 2w4-1
 
-build 2w4-1: C_EXECUTABLE_LINKER__2w4-1_Debug CMakeFiles/2w4-1.dir/2w4-1.c.o
+build 2w4-1: C_EXECUTABLE_LINKER__2w4-1_Debug CMakeFiles/2w4-1.dir/02w04-01.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/2w4-1.dir
   POST_BUILD = :
@@ -294,8 +294,8 @@ build 2w4-1: C_EXECUTABLE_LINKER__2w4-1_Debug CMakeFiles/2w4-1.dir/2w4-1.c.o
 
 build cmake_object_order_depends_target_2w4-2: phony || CMakeFiles/2w4-2.dir
 
-build CMakeFiles/2w4-2.dir/2w4-2.c.o: C_COMPILER__2w4-2_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w4-2.c || cmake_object_order_depends_target_2w4-2
-  DEP_FILE = CMakeFiles/2w4-2.dir/2w4-2.c.o.d
+build CMakeFiles/2w4-2.dir/02w04-02.c.o: C_COMPILER__2w4-2_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/02w04-02.c || cmake_object_order_depends_target_2w4-2
+  DEP_FILE = CMakeFiles/2w4-2.dir/02w04-02.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/2w4-2.dir
   OBJECT_FILE_DIR = CMakeFiles/2w4-2.dir
@@ -308,7 +308,7 @@ build CMakeFiles/2w4-2.dir/2w4-2.c.o: C_COMPILER__2w4-2_Debug /Users/gimdong-yun
 #############################################
 # Link the executable 2w4-2
 
-build 2w4-2: C_EXECUTABLE_LINKER__2w4-2_Debug CMakeFiles/2w4-2.dir/2w4-2.c.o
+build 2w4-2: C_EXECUTABLE_LINKER__2w4-2_Debug CMakeFiles/2w4-2.dir/02w04-02.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/2w4-2.dir
   POST_BUILD = :

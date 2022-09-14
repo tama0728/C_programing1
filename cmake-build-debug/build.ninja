@@ -161,6 +161,192 @@ build 1week_hw_01: C_EXECUTABLE_LINKER__1week_hw_01_Debug CMakeFiles/1week_hw_01
   TARGET_FILE = 1week_hw_01
   TARGET_PDB = 1week_hw_01.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2w3-3
+
+
+#############################################
+# Order-only phony target for 2w3-3
+
+build cmake_object_order_depends_target_2w3-3: phony || CMakeFiles/2w3-3.dir
+
+build CMakeFiles/2w3-3.dir/2w3-3.c.o: C_COMPILER__2w3-3_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w3-3.c || cmake_object_order_depends_target_2w3-3
+  DEP_FILE = CMakeFiles/2w3-3.dir/2w3-3.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2w3-3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2w3-3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2w3-3
+
+
+#############################################
+# Link the executable 2w3-3
+
+build 2w3-3: C_EXECUTABLE_LINKER__2w3-3_Debug CMakeFiles/2w3-3.dir/2w3-3.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2w3-3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2w3-3
+  TARGET_PDB = 2w3-3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2w3-4
+
+
+#############################################
+# Order-only phony target for 2w3-4
+
+build cmake_object_order_depends_target_2w3-4: phony || CMakeFiles/2w3-4.dir
+
+build CMakeFiles/2w3-4.dir/2w3-4.c.o: C_COMPILER__2w3-4_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w3-4.c || cmake_object_order_depends_target_2w3-4
+  DEP_FILE = CMakeFiles/2w3-4.dir/2w3-4.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2w3-4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2w3-4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2w3-4
+
+
+#############################################
+# Link the executable 2w3-4
+
+build 2w3-4: C_EXECUTABLE_LINKER__2w3-4_Debug CMakeFiles/2w3-4.dir/2w3-4.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2w3-4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2w3-4
+  TARGET_PDB = 2w3-4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2w3-5
+
+
+#############################################
+# Order-only phony target for 2w3-5
+
+build cmake_object_order_depends_target_2w3-5: phony || CMakeFiles/2w3-5.dir
+
+build CMakeFiles/2w3-5.dir/2w3-5.c.o: C_COMPILER__2w3-5_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w3-5.c || cmake_object_order_depends_target_2w3-5
+  DEP_FILE = CMakeFiles/2w3-5.dir/2w3-5.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2w3-5.dir
+  OBJECT_FILE_DIR = CMakeFiles/2w3-5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2w3-5
+
+
+#############################################
+# Link the executable 2w3-5
+
+build 2w3-5: C_EXECUTABLE_LINKER__2w3-5_Debug CMakeFiles/2w3-5.dir/2w3-5.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2w3-5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2w3-5
+  TARGET_PDB = 2w3-5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2w4-1
+
+
+#############################################
+# Order-only phony target for 2w4-1
+
+build cmake_object_order_depends_target_2w4-1: phony || CMakeFiles/2w4-1.dir
+
+build CMakeFiles/2w4-1.dir/2w4-1.c.o: C_COMPILER__2w4-1_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w4-1.c || cmake_object_order_depends_target_2w4-1
+  DEP_FILE = CMakeFiles/2w4-1.dir/2w4-1.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2w4-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2w4-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2w4-1
+
+
+#############################################
+# Link the executable 2w4-1
+
+build 2w4-1: C_EXECUTABLE_LINKER__2w4-1_Debug CMakeFiles/2w4-1.dir/2w4-1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2w4-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2w4-1
+  TARGET_PDB = 2w4-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2w4-2
+
+
+#############################################
+# Order-only phony target for 2w4-2
+
+build cmake_object_order_depends_target_2w4-2: phony || CMakeFiles/2w4-2.dir
+
+build CMakeFiles/2w4-2.dir/2w4-2.c.o: C_COMPILER__2w4-2_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/2w4-2.c || cmake_object_order_depends_target_2w4-2
+  DEP_FILE = CMakeFiles/2w4-2.dir/2w4-2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2w4-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2w4-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2w4-2
+
+
+#############################################
+# Link the executable 2w4-2
+
+build 2w4-2: C_EXECUTABLE_LINKER__2w4-2_Debug CMakeFiles/2w4-2.dir/2w4-2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2w4-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2w4-2
+  TARGET_PDB = 2w4-2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hw1
+
+
+#############################################
+# Order-only phony target for hw1
+
+build cmake_object_order_depends_target_hw1: phony || CMakeFiles/hw1.dir
+
+build CMakeFiles/hw1.dir/hw1.c.o: C_COMPILER__hw1_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/hw1.c || cmake_object_order_depends_target_hw1
+  DEP_FILE = CMakeFiles/hw1.dir/hw1.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/hw1.dir
+  OBJECT_FILE_DIR = CMakeFiles/hw1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hw1
+
+
+#############################################
+# Link the executable hw1
+
+build hw1: C_EXECUTABLE_LINKER__hw1_Debug CMakeFiles/hw1.dir/hw1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/hw1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hw1
+  TARGET_PDB = hw1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -195,7 +381,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug
 
-build all: phony code 1week01 1week02 1week_hw_01
+build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1
 
 # =============================================================================
 # Built-in targets

@@ -77,8 +77,8 @@ build code: C_EXECUTABLE_LINKER__code_Debug CMakeFiles/code.dir/main.c.o
 
 build cmake_object_order_depends_target_1week01: phony || CMakeFiles/1week01.dir
 
-build CMakeFiles/1week01.dir/1week01.c.o: C_COMPILER__1week01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1week01.c || cmake_object_order_depends_target_1week01
-  DEP_FILE = CMakeFiles/1week01.dir/1week01.c.o.d
+build CMakeFiles/1week01.dir/1w01.c.o: C_COMPILER__1week01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1w01.c || cmake_object_order_depends_target_1week01
+  DEP_FILE = CMakeFiles/1week01.dir/1w01.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/1week01.dir
   OBJECT_FILE_DIR = CMakeFiles/1week01.dir
@@ -91,7 +91,7 @@ build CMakeFiles/1week01.dir/1week01.c.o: C_COMPILER__1week01_Debug /Users/gimdo
 #############################################
 # Link the executable 1week01
 
-build 1week01: C_EXECUTABLE_LINKER__1week01_Debug CMakeFiles/1week01.dir/1week01.c.o
+build 1week01: C_EXECUTABLE_LINKER__1week01_Debug CMakeFiles/1week01.dir/1w01.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1week01.dir
   POST_BUILD = :
@@ -108,8 +108,8 @@ build 1week01: C_EXECUTABLE_LINKER__1week01_Debug CMakeFiles/1week01.dir/1week01
 
 build cmake_object_order_depends_target_1week02: phony || CMakeFiles/1week02.dir
 
-build CMakeFiles/1week02.dir/1week02.c.o: C_COMPILER__1week02_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1week02.c || cmake_object_order_depends_target_1week02
-  DEP_FILE = CMakeFiles/1week02.dir/1week02.c.o.d
+build CMakeFiles/1week02.dir/1w02.c.o: C_COMPILER__1week02_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1w02.c || cmake_object_order_depends_target_1week02
+  DEP_FILE = CMakeFiles/1week02.dir/1w02.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/1week02.dir
   OBJECT_FILE_DIR = CMakeFiles/1week02.dir
@@ -122,7 +122,7 @@ build CMakeFiles/1week02.dir/1week02.c.o: C_COMPILER__1week02_Debug /Users/gimdo
 #############################################
 # Link the executable 1week02
 
-build 1week02: C_EXECUTABLE_LINKER__1week02_Debug CMakeFiles/1week02.dir/1week02.c.o
+build 1week02: C_EXECUTABLE_LINKER__1week02_Debug CMakeFiles/1week02.dir/1w02.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1week02.dir
   POST_BUILD = :
@@ -139,8 +139,8 @@ build 1week02: C_EXECUTABLE_LINKER__1week02_Debug CMakeFiles/1week02.dir/1week02
 
 build cmake_object_order_depends_target_1week_hw_01: phony || CMakeFiles/1week_hw_01.dir
 
-build CMakeFiles/1week_hw_01.dir/1week_hw_01.c.o: C_COMPILER__1week_hw_01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1week_hw_01.c || cmake_object_order_depends_target_1week_hw_01
-  DEP_FILE = CMakeFiles/1week_hw_01.dir/1week_hw_01.c.o.d
+build CMakeFiles/1week_hw_01.dir/1w03.c.o: C_COMPILER__1week_hw_01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/1w03.c || cmake_object_order_depends_target_1week_hw_01
+  DEP_FILE = CMakeFiles/1week_hw_01.dir/1w03.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/1week_hw_01.dir
   OBJECT_FILE_DIR = CMakeFiles/1week_hw_01.dir
@@ -153,7 +153,7 @@ build CMakeFiles/1week_hw_01.dir/1week_hw_01.c.o: C_COMPILER__1week_hw_01_Debug 
 #############################################
 # Link the executable 1week_hw_01
 
-build 1week_hw_01: C_EXECUTABLE_LINKER__1week_hw_01_Debug CMakeFiles/1week_hw_01.dir/1week_hw_01.c.o
+build 1week_hw_01: C_EXECUTABLE_LINKER__1week_hw_01_Debug CMakeFiles/1week_hw_01.dir/1w03.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1week_hw_01.dir
   POST_BUILD = :

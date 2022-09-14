@@ -5,9 +5,9 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(code main.c)
 
-add_executable(1week01 1week01.c)
-add_executable(1week02 1week02.c)
-add_executable(1week_hw_01 1week_hw_01.c)
+add_executable(1week01 1w01.c)
+add_executable(1week02 1w02.c)
+add_executable(1week_hw_01 1w03.c)
 add_executable(2w3-3 2w3-3.c)
 add_executable(2w3-4 2w3-4.c)
 add_executable(2w3-5 2w3-5.c)

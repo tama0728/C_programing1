@@ -8,5 +8,6 @@
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug/CMakeFiles/2w4-1.dir
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug/CMakeFiles/2w4-2.dir
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug/CMakeFiles/hw1.dir
+/Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug/CMakeFiles/hw2.dir
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

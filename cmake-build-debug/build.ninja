@@ -440,6 +440,37 @@ build hw3: C_EXECUTABLE_LINKER__hw3_Debug CMakeFiles/hw3.dir/hw3.c.o
   TARGET_FILE = hw3
   TARGET_PDB = hw3.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hextorgb
+
+
+#############################################
+# Order-only phony target for hextorgb
+
+build cmake_object_order_depends_target_hextorgb: phony || CMakeFiles/hextorgb.dir
+
+build CMakeFiles/hextorgb.dir/hextorgb.c.o: C_COMPILER__hextorgb_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/hextorgb.c || cmake_object_order_depends_target_hextorgb
+  DEP_FILE = CMakeFiles/hextorgb.dir/hextorgb.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/hextorgb.dir
+  OBJECT_FILE_DIR = CMakeFiles/hextorgb.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hextorgb
+
+
+#############################################
+# Link the executable hextorgb
+
+build hextorgb: C_EXECUTABLE_LINKER__hextorgb_Debug CMakeFiles/hextorgb.dir/hextorgb.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/hextorgb.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hextorgb
+  TARGET_PDB = hextorgb.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -474,7 +505,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug
 
-build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3
+build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb
 
 # =============================================================================
 # Built-in targets

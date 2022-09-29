@@ -9,7 +9,7 @@ int main(void) {
     char channel, y;
     printf("16진수 컬러 코드값을 입력하세요: ");
     scanf("0x%2x%2x%2x", &r, &g, &b);
-    printf("입력된 컬러의 R,G,B 값은 (%d, %d, %d)입니다.\n", r, g ,b);
+    printf("입력된 컬러의 R,G,B 값은 (%d, %d, %d)입니다.\n\n", r, g ,b);
     do {
         do {
             k = 1;
@@ -21,6 +21,9 @@ int main(void) {
                 k = 0;
             } else { printf("잘못 입력하셨습니다. 다시 입력하세요.\n"); }
         } while (k == 1);
+        if (channel >= 'a' && channel <= 'z'){
+            channel = (char)((int)channel - 32);
+        }
         printf("%c 채널의 증감 정도를 입력하세요:", channel);
         scanf("%d", &w);
         if (channel == 'r' || channel == 'R') {
@@ -36,9 +39,10 @@ int main(void) {
             if (b > 255) { b = 255; }
             else if (b < 0) { b = 0; }
         }
-        printf("조정된 컬러의 R,G,B 값은 (%d, %d, %d)이고, 이는 0x%X%X%X로 저장됩니다.\n", r, g, b, r, g, b);
+        printf("\n조정된 컬러의 R,G,B 값은 (%d, %d, %d)이고, 이는 0x%02X%02X%02X로 저장됩니다.\n", r, g, b, r, g, b);
         printf("계속 컬러를 조정하시겠습니까? (y/n) ");
         scanf(" %c", &y);
+        printf("\n");
     } while (y == 'Y' || y == 'y');
     return 0;
 }

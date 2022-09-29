@@ -471,6 +471,37 @@ build hextorgb: C_EXECUTABLE_LINKER__hextorgb_Debug CMakeFiles/hextorgb.dir/hext
   TARGET_FILE = hextorgb
   TARGET_PDB = hextorgb.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hextorgb2
+
+
+#############################################
+# Order-only phony target for hextorgb2
+
+build cmake_object_order_depends_target_hextorgb2: phony || CMakeFiles/hextorgb2.dir
+
+build CMakeFiles/hextorgb2.dir/hextorgb2.c.o: C_COMPILER__hextorgb2_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/hextorgb2.c || cmake_object_order_depends_target_hextorgb2
+  DEP_FILE = CMakeFiles/hextorgb2.dir/hextorgb2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/hextorgb2.dir
+  OBJECT_FILE_DIR = CMakeFiles/hextorgb2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hextorgb2
+
+
+#############################################
+# Link the executable hextorgb2
+
+build hextorgb2: C_EXECUTABLE_LINKER__hextorgb2_Debug CMakeFiles/hextorgb2.dir/hextorgb2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/hextorgb2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hextorgb2
+  TARGET_PDB = hextorgb2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -505,7 +536,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug
 
-build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb
+build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2
 
 # =============================================================================
 # Built-in targets

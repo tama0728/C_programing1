@@ -45,7 +45,8 @@ int main(void) {
             else if (b < 0) { b = 0; }
         }
 //        printf("\n조정된 컬러의 R,G,B 값은 (%d, %d, %d)이고, 이는 0x%02X%02X%02X로 저장됩니다.\n", r, g, b, r, g, b);
-        hex = (r << 16) + (g << 8) + b;
+//        hex = (r << 16) + (g << 8) + b;
+        hex = (r << 16) | (g << 8) | b;
         printf("\n조정된 컬러의 R,G,B 값은 (%d, %d, %d)이고, 이는 0x%06X로 저장됩니다.\n", r, g, b, hex);
         printf("계속 컬러를 조정하시겠습니까? (y/n) ");
         scanf(" %c", &y);

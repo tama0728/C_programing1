@@ -6,7 +6,7 @@
 
 int main(void) {
     int r = 0, g = 0, b = 0, k = 1, w;
-    unsigned int hex, result;
+    unsigned int hex, result = 0;
     char channel, y;
     printf("16진수 컬러 코드값을 입력하세요: ");
     scanf("%x", &hex);
@@ -20,8 +20,10 @@ int main(void) {
     printf("weight : ");
     scanf("%d", &w);
     r += w;
-    result = (r << 16) + (g << 8) + b;
-
+    result = (r << 16) | (g << 8) | b;
+//    result = result | (r << 16);
+//    result = result | (g << 8);
+//    result = result | b;
     printf("%06X\n", result);
     return 0;
 }

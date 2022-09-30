@@ -449,8 +449,8 @@ build hw3: C_EXECUTABLE_LINKER__hw3_Debug CMakeFiles/hw3.dir/hw3.c.o
 
 build cmake_object_order_depends_target_hextorgb: phony || CMakeFiles/hextorgb.dir
 
-build CMakeFiles/hextorgb.dir/hextorgb.c.o: C_COMPILER__hextorgb_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/hextorgb.c || cmake_object_order_depends_target_hextorgb
-  DEP_FILE = CMakeFiles/hextorgb.dir/hextorgb.c.o.d
+build CMakeFiles/hextorgb.dir/HW1_202210899.c.o: C_COMPILER__hextorgb_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/HW1_202210899.c || cmake_object_order_depends_target_hextorgb
+  DEP_FILE = CMakeFiles/hextorgb.dir/HW1_202210899.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/hextorgb.dir
   OBJECT_FILE_DIR = CMakeFiles/hextorgb.dir
@@ -463,7 +463,7 @@ build CMakeFiles/hextorgb.dir/hextorgb.c.o: C_COMPILER__hextorgb_Debug /Users/gi
 #############################################
 # Link the executable hextorgb
 
-build hextorgb: C_EXECUTABLE_LINKER__hextorgb_Debug CMakeFiles/hextorgb.dir/hextorgb.c.o
+build hextorgb: C_EXECUTABLE_LINKER__hextorgb_Debug CMakeFiles/hextorgb.dir/HW1_202210899.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/hextorgb.dir
   POST_BUILD = :
@@ -502,6 +502,37 @@ build hextorgb2: C_EXECUTABLE_LINKER__hextorgb2_Debug CMakeFiles/hextorgb2.dir/h
   TARGET_FILE = hextorgb2
   TARGET_PDB = hextorgb2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hw4
+
+
+#############################################
+# Order-only phony target for hw4
+
+build cmake_object_order_depends_target_hw4: phony || CMakeFiles/hw4.dir
+
+build CMakeFiles/hw4.dir/hw4.c.o: C_COMPILER__hw4_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/hw4.c || cmake_object_order_depends_target_hw4
+  DEP_FILE = CMakeFiles/hw4.dir/hw4.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/hw4.dir
+  OBJECT_FILE_DIR = CMakeFiles/hw4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hw4
+
+
+#############################################
+# Link the executable hw4
+
+build hw4: C_EXECUTABLE_LINKER__hw4_Debug CMakeFiles/hw4.dir/hw4.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/hw4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hw4
+  TARGET_PDB = hw4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -536,7 +567,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug
 
-build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2
+build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2 hw4
 
 # =============================================================================
 # Built-in targets

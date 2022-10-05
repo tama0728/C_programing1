@@ -533,6 +533,99 @@ build hw4: C_EXECUTABLE_LINKER__hw4_Debug CMakeFiles/hw4.dir/hw4.c.o
   TARGET_FILE = hw4
   TARGET_PDB = hw4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 6w09-02
+
+
+#############################################
+# Order-only phony target for 6w09-02
+
+build cmake_object_order_depends_target_6w09-02: phony || CMakeFiles/6w09-02.dir
+
+build CMakeFiles/6w09-02.dir/6w09-02.c.o: C_COMPILER__6w09-02_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/6w09-02.c || cmake_object_order_depends_target_6w09-02
+  DEP_FILE = CMakeFiles/6w09-02.dir/6w09-02.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/6w09-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/6w09-02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6w09-02
+
+
+#############################################
+# Link the executable 6w09-02
+
+build 6w09-02: C_EXECUTABLE_LINKER__6w09-02_Debug CMakeFiles/6w09-02.dir/6w09-02.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/6w09-02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 6w09-02
+  TARGET_PDB = 6w09-02.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 6wch
+
+
+#############################################
+# Order-only phony target for 6wch
+
+build cmake_object_order_depends_target_6wch: phony || CMakeFiles/6wch.dir
+
+build CMakeFiles/6wch.dir/6wch.c.o: C_COMPILER__6wch_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/6wch.c || cmake_object_order_depends_target_6wch
+  DEP_FILE = CMakeFiles/6wch.dir/6wch.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/6wch.dir
+  OBJECT_FILE_DIR = CMakeFiles/6wch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6wch
+
+
+#############################################
+# Link the executable 6wch
+
+build 6wch: C_EXECUTABLE_LINKER__6wch_Debug CMakeFiles/6wch.dir/6wch.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/6wch.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 6wch
+  TARGET_PDB = 6wch.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hw5
+
+
+#############################################
+# Order-only phony target for hw5
+
+build cmake_object_order_depends_target_hw5: phony || CMakeFiles/hw5.dir
+
+build CMakeFiles/hw5.dir/hw5.c.o: C_COMPILER__hw5_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/hw5.c || cmake_object_order_depends_target_hw5
+  DEP_FILE = CMakeFiles/hw5.dir/hw5.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/hw5.dir
+  OBJECT_FILE_DIR = CMakeFiles/hw5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hw5
+
+
+#############################################
+# Link the executable hw5
+
+build hw5: C_EXECUTABLE_LINKER__hw5_Debug CMakeFiles/hw5.dir/hw5.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/hw5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hw5
+  TARGET_PDB = hw5.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -567,7 +660,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug
 
-build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2 hw4
+build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2 hw4 6w09-02 6wch hw5
 
 # =============================================================================
 # Built-in targets

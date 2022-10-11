@@ -16,7 +16,7 @@ int main(void) {
         for (int i = 3; i <= n / 2; i += 2) {
 //            printf("not i : %d, %d, n : %d\n", i, n % i, n);
             if (n % i == 0) {
-                printf("i : %d\n", i);
+//                printf("i : %d\n", i);
                 f = 0;
                 break;
             }

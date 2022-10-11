@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int square(int n) {
-    if (n == 1) {
+if (n == 1) {
         return 2;
     } else {
         return square(n-1) * 2;

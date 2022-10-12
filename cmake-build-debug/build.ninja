@@ -626,6 +626,37 @@ build hw5: C_EXECUTABLE_LINKER__hw5_Debug CMakeFiles/hw5.dir/hw5.c.o
   TARGET_FILE = hw5
   TARGET_PDB = hw5.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 06w01
+
+
+#############################################
+# Order-only phony target for 06w01
+
+build cmake_object_order_depends_target_06w01: phony || CMakeFiles/06w01.dir
+
+build CMakeFiles/06w01.dir/06w01.c.o: C_COMPILER__06w01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/06w01.c || cmake_object_order_depends_target_06w01
+  DEP_FILE = CMakeFiles/06w01.dir/06w01.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/06w01.dir
+  OBJECT_FILE_DIR = CMakeFiles/06w01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06w01
+
+
+#############################################
+# Link the executable 06w01
+
+build 06w01: C_EXECUTABLE_LINKER__06w01_Debug CMakeFiles/06w01.dir/06w01.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/06w01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 06w01
+  TARGET_PDB = 06w01.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -660,7 +691,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug
 
-build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2 hw4 6w09-02 6wch hw5
+build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2 hw4 6w09-02 6wch hw5 06w01
 
 # =============================================================================
 # Built-in targets

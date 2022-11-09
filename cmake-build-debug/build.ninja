@@ -1029,6 +1029,285 @@ build hw6: C_EXECUTABLE_LINKER__hw6_Debug CMakeFiles/hw6.dir/hw6.c.o
   TARGET_FILE = hw6
   TARGET_PDB = hw6.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 10w01
+
+
+#############################################
+# Order-only phony target for 10w01
+
+build cmake_object_order_depends_target_10w01: phony || CMakeFiles/10w01.dir
+
+build CMakeFiles/10w01.dir/10w01.c.o: C_COMPILER__10w01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/10w01.c || cmake_object_order_depends_target_10w01
+  DEP_FILE = CMakeFiles/10w01.dir/10w01.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10w01.dir
+  OBJECT_FILE_DIR = CMakeFiles/10w01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10w01
+
+
+#############################################
+# Link the executable 10w01
+
+build 10w01: C_EXECUTABLE_LINKER__10w01_Debug CMakeFiles/10w01.dir/10w01.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10w01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10w01
+  TARGET_PDB = 10w01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10w12-01-2
+
+
+#############################################
+# Order-only phony target for 10w12-01-2
+
+build cmake_object_order_depends_target_10w12-01-2: phony || CMakeFiles/10w12-01-2.dir
+
+build CMakeFiles/10w12-01-2.dir/10w12-01-02.c.o: C_COMPILER__10w12-01-2_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/10w12-01-02.c || cmake_object_order_depends_target_10w12-01-2
+  DEP_FILE = CMakeFiles/10w12-01-2.dir/10w12-01-02.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10w12-01-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/10w12-01-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10w12-01-2
+
+
+#############################################
+# Link the executable 10w12-01-2
+
+build 10w12-01-2: C_EXECUTABLE_LINKER__10w12-01-2_Debug CMakeFiles/10w12-01-2.dir/10w12-01-02.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10w12-01-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10w12-01-2
+  TARGET_PDB = 10w12-01-2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10w02
+
+
+#############################################
+# Order-only phony target for 10w02
+
+build cmake_object_order_depends_target_10w02: phony || CMakeFiles/10w02.dir
+
+build CMakeFiles/10w02.dir/10w02.c.o: C_COMPILER__10w02_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/10w02.c || cmake_object_order_depends_target_10w02
+  DEP_FILE = CMakeFiles/10w02.dir/10w02.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10w02.dir
+  OBJECT_FILE_DIR = CMakeFiles/10w02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10w02
+
+
+#############################################
+# Link the executable 10w02
+
+build 10w02: C_EXECUTABLE_LINKER__10w02_Debug CMakeFiles/10w02.dir/10w02.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10w02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10w02
+  TARGET_PDB = 10w02.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10w03
+
+
+#############################################
+# Order-only phony target for 10w03
+
+build cmake_object_order_depends_target_10w03: phony || CMakeFiles/10w03.dir
+
+build CMakeFiles/10w03.dir/10w03.c.o: C_COMPILER__10w03_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/10w03.c || cmake_object_order_depends_target_10w03
+  DEP_FILE = CMakeFiles/10w03.dir/10w03.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10w03.dir
+  OBJECT_FILE_DIR = CMakeFiles/10w03.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10w03
+
+
+#############################################
+# Link the executable 10w03
+
+build 10w03: C_EXECUTABLE_LINKER__10w03_Debug CMakeFiles/10w03.dir/10w03.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10w03.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10w03
+  TARGET_PDB = 10w03.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10w13-01-01
+
+
+#############################################
+# Order-only phony target for 10w13-01-01
+
+build cmake_object_order_depends_target_10w13-01-01: phony || CMakeFiles/10w13-01-01.dir
+
+build CMakeFiles/10w13-01-01.dir/10w13-01-01.c.o: C_COMPILER__10w13-01-01_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/10w13-01-01.c || cmake_object_order_depends_target_10w13-01-01
+  DEP_FILE = CMakeFiles/10w13-01-01.dir/10w13-01-01.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10w13-01-01.dir
+  OBJECT_FILE_DIR = CMakeFiles/10w13-01-01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10w13-01-01
+
+
+#############################################
+# Link the executable 10w13-01-01
+
+build 10w13-01-01: C_EXECUTABLE_LINKER__10w13-01-01_Debug CMakeFiles/10w13-01-01.dir/10w13-01-01.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10w13-01-01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10w13-01-01
+  TARGET_PDB = 10w13-01-01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10w13-01-02
+
+
+#############################################
+# Order-only phony target for 10w13-01-02
+
+build cmake_object_order_depends_target_10w13-01-02: phony || CMakeFiles/10w13-01-02.dir
+
+build CMakeFiles/10w13-01-02.dir/10w13-01-02.c.o: C_COMPILER__10w13-01-02_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/10w13-01-02.c || cmake_object_order_depends_target_10w13-01-02
+  DEP_FILE = CMakeFiles/10w13-01-02.dir/10w13-01-02.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10w13-01-02.dir
+  OBJECT_FILE_DIR = CMakeFiles/10w13-01-02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10w13-01-02
+
+
+#############################################
+# Link the executable 10w13-01-02
+
+build 10w13-01-02: C_EXECUTABLE_LINKER__10w13-01-02_Debug CMakeFiles/10w13-01-02.dir/10w13-01-02.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10w13-01-02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10w13-01-02
+  TARGET_PDB = 10w13-01-02.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10w13-01-03
+
+
+#############################################
+# Order-only phony target for 10w13-01-03
+
+build cmake_object_order_depends_target_10w13-01-03: phony || CMakeFiles/10w13-01-03.dir
+
+build CMakeFiles/10w13-01-03.dir/10w13-01-03.c.o: C_COMPILER__10w13-01-03_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/10w13-01-03.c || cmake_object_order_depends_target_10w13-01-03
+  DEP_FILE = CMakeFiles/10w13-01-03.dir/10w13-01-03.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10w13-01-03.dir
+  OBJECT_FILE_DIR = CMakeFiles/10w13-01-03.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10w13-01-03
+
+
+#############################################
+# Link the executable 10w13-01-03
+
+build 10w13-01-03: C_EXECUTABLE_LINKER__10w13-01-03_Debug CMakeFiles/10w13-01-03.dir/10w13-01-03.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10w13-01-03.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10w13-01-03
+  TARGET_PDB = 10w13-01-03.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10w13-01-04
+
+
+#############################################
+# Order-only phony target for 10w13-01-04
+
+build cmake_object_order_depends_target_10w13-01-04: phony || CMakeFiles/10w13-01-04.dir
+
+build CMakeFiles/10w13-01-04.dir/10w13-01-04.c.o: C_COMPILER__10w13-01-04_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/10w13-01-04.c || cmake_object_order_depends_target_10w13-01-04
+  DEP_FILE = CMakeFiles/10w13-01-04.dir/10w13-01-04.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10w13-01-04.dir
+  OBJECT_FILE_DIR = CMakeFiles/10w13-01-04.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10w13-01-04
+
+
+#############################################
+# Link the executable 10w13-01-04
+
+build 10w13-01-04: C_EXECUTABLE_LINKER__10w13-01-04_Debug CMakeFiles/10w13-01-04.dir/10w13-01-04.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10w13-01-04.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10w13-01-04
+  TARGET_PDB = 10w13-01-04.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hw7
+
+
+#############################################
+# Order-only phony target for hw7
+
+build cmake_object_order_depends_target_hw7: phony || CMakeFiles/hw7.dir
+
+build CMakeFiles/hw7.dir/hw7.c.o: C_COMPILER__hw7_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/hw7.c || cmake_object_order_depends_target_hw7
+  DEP_FILE = CMakeFiles/hw7.dir/hw7.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/hw7.dir
+  OBJECT_FILE_DIR = CMakeFiles/hw7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hw7
+
+
+#############################################
+# Link the executable hw7
+
+build hw7: C_EXECUTABLE_LINKER__hw7_Debug CMakeFiles/hw7.dir/hw7.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/hw7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hw7
+  TARGET_PDB = hw7.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1063,7 +1342,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/2022/2학기/C프로그래밍1/code/cmake-build-debug
 
-build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2 hw4 6w09-02 6wch hw5 06w01 7w01 09wx01 09w11-01-1 09w11-01-2 09wx02 09w11-02-1 9w11-02-2 09w11-02-3 09w16-01-1 09w16-01-2 09w16-01-3 hw6
+build all: phony code 1week01 1week02 1week_hw_01 2w3-3 2w3-4 2w3-5 2w4-1 2w4-2 hw1 hw2 04w07-04-1 hw3 hextorgb hextorgb2 hw4 6w09-02 6wch hw5 06w01 7w01 09wx01 09w11-01-1 09w11-01-2 09wx02 09w11-02-1 9w11-02-2 09w11-02-3 09w16-01-1 09w16-01-2 09w16-01-3 hw6 10w01 10w12-01-2 10w02 10w03 10w13-01-01 10w13-01-02 10w13-01-03 10w13-01-04 hw7
 
 # =============================================================================
 # Built-in targets

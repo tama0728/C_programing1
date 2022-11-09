@@ -15,6 +15,7 @@ int main(void) {
     for (int i = 0; i < 6; ++i) {
         printf("%d ", arr1[i]);
     }
+
     printf("\narr2 : ");
     for (int i = 0; i < 6; ++i) {
         printf("%d ", arr2[i]);

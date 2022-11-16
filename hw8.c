@@ -27,6 +27,7 @@ int main(void) {
     for (int i = 0; i < 5; ++i) {
         scanf(" %d", &arr[i]);
     }
+
     float sd = StandardDeviation(arr, sizeof(arr)/ sizeof(int));
     printf("Standard Deviation = %.3lf", sd);
     return 0;

@@ -6,7 +6,7 @@
 #include <string.h>
 int main(void) {
     char str[30];
-    int temp = 0;
+    int temp;
     fgets(str, sizeof(str), stdin);
 
     for (int i = 0; i < strlen(str); ++i) {
